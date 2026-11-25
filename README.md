@@ -1,18 +1,18 @@
 # House Price Prediction - AI & ML Final Project
 
-## Project kya karta hai?
-Ghar ka Area, Bedrooms aur Age daalne par uski Price predict karta hai.
+## What Does This Project Do?
+This project predicts the price of a house based on its Area, Bedrooms, and Age.
 
-## Technology
+## Technology Used
 - Python
 - Pandas
 - Scikit-Learn
 - Linear Regression
 
-## Kaise Chalaye?
+## How To Run?
 pip install pandas scikit-learn
 python app.py
 
 ## Result
-Model R2 Score se price predict karta hai.
-Example: 2000 sqft, 3 Bedroom ghar ki price ~95 Lakh predict hoti hai.
+The model predicts the price using R2 Score.
+Example: A house with 2000 sqft and 3 Bedrooms is predicted at around 95 Lakh.
