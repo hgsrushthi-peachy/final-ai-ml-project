@@ -26,4 +26,4 @@ print("Accuracy (R2 Score):", r2_score(y_test, model.predict(X_test)))
 # Prediction for new house
 new_house = [[2000, 3, 5]]
 price = model.predict(new_house)
-print(f"2000 sqft, 3 Bedroom, 5 saal purane ghar ki price: {price[0]:.2f} Lakh")
+print(f"Predicted price for 2000 sqft, 3 Bedroom, 5 years old house: {price[0]:.2f} Lakh")
